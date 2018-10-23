@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteName" parallel = "tests">
+	
+	<listeners>
+		<listener class-name="utils.TestListener.TestListener"></listener>
+	</listeners>
+
+	<test name="Test1" allow-return-values="true" >
+		<classes> 
+			<class name="com.xtremax.qabase.microservices.ApiTest" />
+		</classes>
+	</test>
+
+</suite>
