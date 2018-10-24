@@ -1,24 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-10-23T16:37:07Z" name="SuiteName" finished-at="2018-10-23T16:37:09Z" duration-ms="1986">
+  <suite started-at="2018-10-24T15:03:59Z" name="SuiteName" finished-at="2018-10-24T15:04:02Z" duration-ms="3396">
     <groups>
     </groups>
-    <test started-at="2018-10-23T16:37:07Z" name="Test1" finished-at="2018-10-23T16:37:09Z" duration-ms="1986">
+    <test started-at="2018-10-24T15:03:59Z" name="Test1" finished-at="2018-10-24T15:04:02Z" duration-ms="3396">
       <class name="com.xtremax.qabase.microservices.ApiTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:com.xtremax.qabase.microservices.ApiTest@1de5f259]" started-at="2018-10-24T00:37:07Z" name="start" finished-at="2018-10-24T00:37:07Z" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.xtremax.qabase.microservices.ApiTest@1de5f259]" started-at="2018-10-24T23:03:59Z" name="setup" finished-at="2018-10-24T23:03:59Z" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="getUserData()[pri:0, instance:com.xtremax.qabase.microservices.ApiTest@1de5f259]" started-at="2018-10-24T00:37:07Z" name="getUserData" finished-at="2018-10-24T00:37:09Z" duration-ms="1969" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="createNewUser()[pri:0, instance:com.xtremax.qabase.microservices.ApiTest@1de5f259]" started-at="2018-10-24T23:03:59Z" name="createNewUser" finished-at="2018-10-24T23:04:01Z" duration-ms="1757" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserData -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.xtremax.qabase.microservices.ApiTest@1de5f259]" started-at="2018-10-24T00:37:09Z" name="end" finished-at="2018-10-24T00:37:09Z" duration-ms="0" status="PASS">
+        </test-method> <!-- createNewUser -->
+        <test-method signature="getAllUserData()[pri:0, instance:com.xtremax.qabase.microservices.ApiTest@1de5f259]" started-at="2018-10-24T23:04:01Z" name="getAllUserData" finished-at="2018-10-24T23:04:02Z" duration-ms="987" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- end -->
+        </test-method> <!-- getAllUserData -->
+        <test-method signature="getUserDataById()[pri:0, instance:com.xtremax.qabase.microservices.ApiTest@1de5f259]" started-at="2018-10-24T23:04:02Z" name="getUserDataById" finished-at="2018-10-24T23:04:02Z" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDataById -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.xtremax.qabase.microservices.ApiTest@1de5f259]" started-at="2018-10-24T23:04:02Z" name="teardown" finished-at="2018-10-24T23:04:02Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- com.xtremax.qabase.microservices.ApiTest -->
     </test> <!-- Test1 -->
   </suite> <!-- SuiteName -->

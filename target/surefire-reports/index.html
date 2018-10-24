@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +101,17 @@
                     <div class="method-list-content passed suite-SuiteName">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SuiteName" title="com.xtremax.qabase.microservices.ApiTest" class="method navigator-link" hash-for-method="getUserData">getUserData</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SuiteName" title="com.xtremax.qabase.microservices.ApiTest" class="method navigator-link" hash-for-method="createNewUser">createNewUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteName" title="com.xtremax.qabase.microservices.ApiTest" class="method navigator-link" hash-for-method="getAllUserData">getAllUserData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteName" title="com.xtremax.qabase.microservices.ApiTest" class="method navigator-link" hash-for-method="getUserDataById">getUserDataById</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-SuiteName -->
@@ -124,9 +134,23 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getUserData">
-                  </a> <!-- getUserData -->
-                  <span class="method-name">getUserData</span>
+                  <a name="createNewUser">
+                  </a> <!-- createNewUser -->
+                  <span class="method-name">createNewUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllUserData">
+                  </a> <!-- getAllUserData -->
+                  <span class="method-name">getAllUserData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserDataById">
+                  </a> <!-- getUserDataById -->
+                  <span class="method-name">getUserDataById</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -186,16 +210,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getUserData')
+data.setCell(0, 1, 'createNewUser')
 data.setCell(0, 2, 'com.xtremax.qabase.microservices.ApiTest')
-data.setCell(0, 3, 1969);
+data.setCell(0, 3, 1757);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getAllUserData')
+data.setCell(1, 2, 'com.xtremax.qabase.microservices.ApiTest')
+data.setCell(1, 3, 987);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getUserDataById')
+data.setCell(2, 2, 'com.xtremax.qabase.microservices.ApiTest')
+data.setCell(2, 3, 630);
 window.suiteTableData['SuiteName']= { tableData: data, tableDiv: 'times-div-SuiteName'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-SuiteName">
               </div> <!-- times-div-SuiteName -->
             </div> <!-- times-div -->
@@ -223,16 +255,24 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.xtremax.qabase.microservices.ApiTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">start</span>
+                <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">getUserData</span>
-                <span class="method-start">7 ms</span>
+                <span class="method-name">createNewUser</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getAllUserData</span>
+                <span class="method-start">1772 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUserDataById</span>
+                <span class="method-start">2759 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
-                <span class="method-name">end</span>
-                <span class="method-start">1981 ms</span>
+                <span class="method-name">teardown</span>
+                <span class="method-start">3389 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [SuiteName]" verbose="0">
+  <listeners>
+    <listener class-name="utils.TestListener.TestListener"/>
+  </listeners>
+  <test parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="com.xtremax.qabase.microservices.ApiTest">
+        <methods>
+          <include name="getAllUserData"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="createNewUser"/>
+        </methods>
+      </class> <!-- com.xtremax.qabase.microservices.ApiTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->
